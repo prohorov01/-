@@ -21,10 +21,11 @@
 	{% endblock %}
 
 	{% block content %}
+			{% include '../partials/new.twig' %}
+				{% include '../partials/products.twig' %}
 	{% endblock %}
 	
-		{% include '../partials/new.twig' %}
-				{% include '../partials/products.twig' %}
+
 
 		{% include '../partials/gallery.twig' %}
 				{% include '../partials/projects.twig' %}
