@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+{% block head %}
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>{{ title }}</title>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+{% endblock %}
+</head>
+<body>
+{% block page %}
+	{% block header %}
+		{% include '../partials/header.twig' %}
+	{% endblock %}
+
+	{% block content %}{% endblock %}
+		{% include '../partials/new.twig' %}
+				{% include '../partials/products.twig' %}
+
+		{% include '../partials/gallery.twig' %}
+				{% include '../partials/projects.twig' %}
+
+		{% include '../partials/vesion.twig' %}
+		{% include '../partials/tile.twig' %}
+		{% include '../partials/name.twig' %}
+		{% include '../partials/shopping.twig' %}
+		{% include '../partials/check.twig' %}
+		{% include '../partials/catalog.twig' %}
+
+		{% include '../partials/showrooms.twig' %}
+
+	{% block footer %}
+		{% include '../partials/footer.twig' %}
+	{% endblock %}
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,36 @@
+.btn-read {
+	font-family: "Proxima Nova";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 16px 44px;
+	&-small {
+		padding: 16px 22px;
+	}
+	&-light {
+		background-color: #ffffff;
+		color: #111010;
+		border: 2px solid #111010;
+		&:hover {
+			background-color: #111010;
+			color: #ffffff;
+		}
+	}
+	&-dark {
+		background-color: #111010;
+		color: #ffffff;
+		&:hover {
+			background-color: #ffffff;
+			color: #111010;
+			border: 2px solid #111010;
+		}
+		&--e-small {
+		}
+	}
+}

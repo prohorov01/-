@@ -1,0 +1,189 @@
+input[type=text] {
+  padding: 15px 18px 12px;
+  max-width: 362px;
+  width: 100%;
+  border: 1px solid rgba(130, 130, 130, 0.4);
+  margin-bottom: 20px;
+}
+input[type=text]::-moz-placeholder {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(130, 130, 130, 0.85);
+}
+input[type=text]::placeholder {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(130, 130, 130, 0.85);
+}
+
+.d-fle {
+  display: flex;
+  gap: 5px;
+  padding-left: 58px;
+  margin-top: 23px;
+}
+
+.fw-gray {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(130, 130, 130, 0.85);
+}
+
+.jc-sb {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.e--lot {
+  max-width: 239px !important;
+}
+
+.e--lote {
+  max-width: 116px !important;
+}
+
+.e--lotes {
+  max-width: 158px !important;
+}
+
+.e--lotese {
+  max-width: 195px !important;
+}
+
+.e--loteses {
+  max-width: 208px !important;
+}
+
+.e--lo {
+  max-width: 381px !important;
+}
+
+.btn-df {
+  display: flex;
+  gap: 0;
+  margin-bottom: 20px;
+}
+
+.textp {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #000000;
+  margin-top: 28px;
+}
+.textp-lh {
+  line-height: 18px;
+  margin-top: 26px;
+  margin-bottom: 17px;
+}
+
+.check-main {
+  display: flex;
+  gap: 22px;
+}
+.check-main-one {
+  background-color: #fafafa;
+  padding: 20px 30px;
+  width: 421px;
+}
+.check-main-two {
+  background-color: #fafafa;
+  max-width: 424px;
+  width: 100%;
+  padding: 22px 23px;
+  height: 100%;
+}
+.check-main-two-bank {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.check-main-two-bank-p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.check-main-three {
+  background-color: #fafafa;
+  max-width: 424px;
+  width: 100%;
+  padding: 26px 26px;
+  height: 100%;
+}
+.check-main-three-one-article {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+.check-main-three-one-article-p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9444px;
+  line-height: 21px;
+  text-align: right;
+  color: #000000;
+}
+.check-main-three-one-img {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.check-main-for {
+  background-color: #fafafa;
+  max-width: 424px;
+  width: 100%;
+  padding: 20px 37px 25px;
+  height: 100%;
+}
+
+.btn-safe {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 14px 110px;
+}
+.btn-safe-pad {
+  padding: 10px 153px 10px 122px;
+}
+
+.all {
+  display: flex;
+  row-gap: 20px;
+  height: 100%;
+  flex-direction: column;
+}
+
+.bank-d {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.btn-ms {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  padding: 14px 20px;
+}/*# sourceMappingURL=check.css.map */

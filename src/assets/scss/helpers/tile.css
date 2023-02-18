@@ -1,0 +1,207 @@
+@media screen and (min-width: 1440px) {
+  .collections {
+    padding: 0px !important;
+  }
+}
+
+.products-title {
+  margin-top: 40px;
+}
+@media screen and (min-width: 992px) {
+  .products-title {
+    margin-top: 75px;
+    white-space: nowrap;
+  }
+}
+.products-head {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  color: #111010;
+  border-bottom: 3px solid #c4c4c4;
+  width: 125px;
+  margin: 0 auto;
+  white-space: pre;
+}
+@media screen and (min-width: 992px) {
+  .products-head {
+    font-size: 48px;
+    line-height: 48px;
+    border-bottom: 4px solid #c4c4c4;
+    width: 150px;
+  }
+}
+.products-main {
+  display: flex;
+  justify-content: center;
+}
+.products-more {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #616161;
+  margin-top: 14px;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 992px) {
+  .products-more {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 826px;
+    white-space: normal;
+  }
+}
+
+.tile {
+  display: flex;
+  row-gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .tile {
+    gap: 16px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .tile {
+    gap: 29px;
+  }
+}
+.tile-main {
+  overflow: hidden;
+  position: relative;
+  height: 470px;
+}
+@media screen and (max-width: 768px) {
+  .tile-main .tile-one {
+    bottom: 0;
+    transform: translateY(-65px);
+    margin-bottom: -65px;
+  }
+  .tile-main .tile-one .btn-cent {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tile-main:hover .tile-one {
+    bottom: 0;
+    transform: translateY(-65px);
+    margin-bottom: -65px;
+  }
+  .tile-main:hover .tile-one .btn-cent {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+.tile-img {
+  margin-top: 12px;
+}
+.tile-one {
+  background-color: #fff;
+  margin-top: 13px;
+  position: absolute;
+  width: 100%;
+  bottom: -72px;
+  transition: all 0.3s ease-in-out;
+}
+.tile-head {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #111010;
+  padding-top: 25px;
+}
+@media screen and (min-width: 768px) {
+  .tile-head {
+    font-size: 26px;
+    line-height: 26px;
+  }
+}
+.tile-more-one {
+  display: flex;
+  gap: 7px;
+  margin-top: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.tile-more {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 8px;
+  text-align: center;
+  text-decoration-line: line-through;
+  text-transform: capitalize;
+  color: #cacaca;
+}
+@media screen and (min-width: 768px) {
+  .tile-more {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+.tile-more-two {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(17, 16, 16, 0.5);
+}
+@media screen and (min-width: 768px) {
+  .tile-more-two {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+.btn-cent {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.btn-black {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 14px 40px;
+  margin-top: 24px;
+}
+.btn-black:hover {
+  background-color: #ffffff;
+  color: #111010;
+  border: 2px solid #111010;
+}/*# sourceMappingURL=tile.css.map */

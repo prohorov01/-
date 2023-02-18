@@ -1,0 +1,132 @@
+.collections {
+	@media screen and (min-width: 1440px) {
+		padding: 0px !important;
+	}
+}
+.bg-dsr {
+	background-color: black;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.name-p {
+	font-family: "Proxima Nova";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff;
+}
+.bord {
+	border-bottom: 3px solid #c4c4c4;
+}
+.name-black {
+	display: flex;
+	gap: 20px;
+}
+.name-title {
+	margin-top: 90px;
+	&-h2 {
+		font-family: "Proxima Nova";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 58px;
+		color: #111010;
+	}
+	&-p {
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 45px;
+		color: #000000;
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+	&-p2 {
+		font-family: "Proxima Nova";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 28px;
+		color: #616161;
+		padding-bottom: 67px;
+	}
+	&-link {
+		font-family: "Proxima Nova";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+		color: #000000;
+		padding-bottom: 10px;
+	}
+}
+.name-two {
+	display: flex;
+	gap: 30px;
+	padding-top: 20px;
+	margin-bottom: 140px;
+}
+.name-main {
+	display: flex;
+	gap: 50px;
+}
+.name-img {
+	margin-top: 75px;
+}
+.name-nav {
+	display: flex;
+	justify-content: center;
+	&-one {
+		font-family: "Proxima Nova";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 30px;
+		color: #979797;
+		padding-right: 23px;
+	}
+	&-two {
+		font-family: "Proxima Nova";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 30px;
+		color: #000000;
+		padding-right: 16px;
+	}
+	&-three {
+		font-family: "Proxima Nova";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 30px;
+		color: #000000;
+	}
+}
+.name-center {
+	font-family: "Proxima Nova";
+	font-style: normal;
+	margin: 0 auto;
+	padding-top: 39px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+
+	color: #000000;
+}
+.name-center-h {
+	font-family: "Proxima Nova";
+	font-style: normal;
+	margin-top: 108px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 45px;
+	text-align: center;
+	color: #151515;
+}

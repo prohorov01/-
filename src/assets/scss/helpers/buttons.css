@@ -1,0 +1,34 @@
+.btn-read {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 16px 44px;
+}
+.btn-read-small {
+  padding: 16px 22px;
+}
+.btn-read-light {
+  background-color: #ffffff;
+  color: #111010;
+  border: 2px solid #111010;
+}
+.btn-read-light:hover {
+  background-color: #111010;
+  color: #ffffff;
+}
+.btn-read-dark {
+  background-color: #111010;
+  color: #ffffff;
+}
+.btn-read-dark:hover {
+  background-color: #ffffff;
+  color: #111010;
+  border: 2px solid #111010;
+}/*# sourceMappingURL=buttons.css.map */
