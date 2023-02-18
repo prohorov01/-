@@ -1,6 +1,6 @@
 .bg-on {
   background-repeat: no-repeat;
-  background-image: url("/assets/img/bg-4.png");
+  background-image: url("assets/img/bg-4.png");
   width: 1920px;
   height: 526px;
   margin: 0 auto;
@@ -147,7 +147,7 @@
 }
 .banner-img {
   background-repeat: no-repeat;
-  background-image: url("/assets/img/gradient.jpg");
+  background-image: url("assets/img/gradient.jpg");
   width: 890px;
   height: 358px;
   margin: 0 auto;
